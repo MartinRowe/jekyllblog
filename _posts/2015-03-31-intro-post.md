@@ -8,4 +8,4 @@ The first post. Jekyll will hopefully give me an opportunity to practise markdow
 {% gist MartinRowe / dabblet.css %}
 gist should be here
 Here's the hello
-{% gist MartinRowe / gist:bf8dc472bfcddb7e03bb %}
+{% gist bf8dc472bfcddb7e03bb %}
