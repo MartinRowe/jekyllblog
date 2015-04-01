@@ -5,7 +5,7 @@ date:   2015-03-31 22:33:48
 categories: jekyll
 ---
 The first post. Jekyll will hopefully give me an opportunity to practise markdown, github, and the front end technologies. 
-{% gist dabblet.css %}
+{% gist b5f869ee646dc03723b7 %}
 gist should be here
 Here's the hello
 {% gist bf8dc472bfcddb7e03bb %}
