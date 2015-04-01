@@ -1,12 +1,13 @@
 ---
 layout: default
+tag: Exercises
 ---
 
 <div class="home">
 
-	<h1 class="page-heading">Exercises</h1>
+	<h1> {{ page.tag }} </h1>
 <ul class="post-list">
-{% for post in site.posts %}
+{% for post in site.tags[page.tag] %}
 	<li>
 	<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
