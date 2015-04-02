@@ -6,33 +6,13 @@ tags:
 - exercise
 - lesson
 ---
+
 <h1>{{ page.title }}</h1>
 
 {% for cat in site.categories %}
 <li> {{ cat[0] }}</li>
 {% endfor %}
 
-<p> between {{ cat[1] }} </p>
-
-<ul>
-{% for post in site.tags[exercise] %}
-<p> the cat </p>
-  <li>
-    {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
-
-
-<ul>
- {% for page in site.pages %}
-   {% for tag in page.tags %}
-       {% if tag == "exercise" %}
-           <li><a href="{{ page.permalink | prepend: site.baseurl }}">{{page.title}}</a></li>
-        {% endif %}
-   {% endfor %}
- {% endfor %}
-</ul>
 
 <ul>
 {% for post in site.posts limit: 3 %}
