@@ -11,7 +11,7 @@ layout: default
 
     {% for post in site.posts %}
 {% for tag in post.tags %}
-{% unless tag == "exercise" %}
+{% if tag == "exercise" %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -19,7 +19,7 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
-{% endunless %}
+{% endif %}
 {% endfor %}
     {% endfor %}
   </ul>
