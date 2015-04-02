@@ -2,7 +2,8 @@
 title: Assess and Improve
 email: martin.rowe@assessandimprove.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Assess and Improve: Exercises
+  Assess and Improve: This is an atempt to create a site using the priciples
+of negtive space
 baseurl: /jekyllblog # the subpath of your site, e.g. /blog/
 url: "http://martinrowe.github.io/jekyllblog/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
