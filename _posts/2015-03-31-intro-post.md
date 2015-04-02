@@ -2,7 +2,7 @@
 layout: post
 title:  "Intro Post"
 date:   2015-03-31 22:33:48
-categories: jekyll
+tag: jekyll
 ---
 The first post. Jekyll will hopefully give me an opportunity to practise terminal, markdown, github, liquid and the front end technologies.
 Here is my modification of Lea Verou's rounded borders from her CSS Secrets book. So i could provide code snippets - hmmn. 
