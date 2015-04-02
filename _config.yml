@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Assess and Improve: This is an attempt to create a site using the principles of negative space
 baseurl: /jekyllblog # the subpath of your site, e.g. /blog/
 # url: "http://www.assessandimprove.info/" # the base hostname & protocol for your site
-url: "http://www.assessandimprove.info" # the base hostname & protocol for your site
+url: "http://www.Martin.Rowe.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  martinrowe
 
