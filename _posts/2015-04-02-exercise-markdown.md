@@ -18,5 +18,7 @@ There are possibilities:
 - Github
 - Minimalism
 - Negative Space
+- Components
+- Style Guides
 
 Solve the wicked problems 
