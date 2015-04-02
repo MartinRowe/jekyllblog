@@ -5,9 +5,21 @@ permalink: /exercises/
 tags: exercise
 ---
 
+{% comment %}
+Pick up title variable from above.
+{% endcomment %}
 <h1>{{ page.title }}</h1>
 
 
+{% comment %}
+within an unordered list
+loop through posts in the site - show up to 3
+loop through the tags - posts must have a tag set in the front matter
+(loop didn't work when other posts didn't have tags)
+check for a specific tag - in this case: exercise
+if true show the posts with the exercise tag
+title, date, summary 
+{% endcomment %}
 <ul>
 {% for post in site.posts limit: 3 %}
 {% for tag in post.tags %}
