@@ -19,7 +19,9 @@ loop through the tags - posts must have a tag set in the front matter
 check for a specific tag - in this case: exercise
 if true show the posts with the exercise tag
 title, date, summary 
+each post is a list item
 {% endcomment %}
+
 <ul>
 {% for post in site.posts limit: 3 %}
 {% for tag in post.tags %}
