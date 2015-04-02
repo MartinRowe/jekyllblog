@@ -14,6 +14,7 @@ see exercises/index.html for detailed comments.
 {% for tag in post.tags %}
 {% if tag == "answer" %}
 <li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> ({{ post.date | date: "%b %-d, %Y" }})</li>
+{{ post.excerpt }}
 <div class="summary">{{ post.summary }}</div>
 {% endif %}
 {% endfor %}
