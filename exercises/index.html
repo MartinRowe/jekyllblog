@@ -11,6 +11,7 @@ categories: exercise lesson
 {% endfor %}
 
 <p> between {{ cat[1] }} </p>
+
 <ul>
 {% for post in site.categories.cat[1] %}
 <p> the cat </p>
@@ -19,3 +20,15 @@ categories: exercise lesson
   </li>
 {% endfor %}
 </ul>
+
+
+<ul>
+ {% for page in site.pages %}
+   {% for tag in page.tags %}
+       {% if tag == "exercise" %}
+           <li><a href="{{ page.permalink | prepend: site.baseurl }}">{{page.title}}</a></li>
+        {% endif %}
+   {% endfor %}
+ {% endfor %}
+</ul>
+
