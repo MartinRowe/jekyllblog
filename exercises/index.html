@@ -31,6 +31,7 @@ each post is a list item
 <li><a class="post-link" href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%b %-d, %Y" }})</l$
 {% endcomment %}
 
+{{ post.excerpt }}
 <div class="summary">{{post.summary}}</div>
 {% endif %}
 {% endfor %}
