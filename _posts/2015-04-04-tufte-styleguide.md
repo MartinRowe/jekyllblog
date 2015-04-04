@@ -21,6 +21,7 @@ Layout:
 
 Headings:
 	A - section (h2?)
+
 	B - subsection (h3?)
 
 Paragraph:
