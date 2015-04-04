@@ -15,9 +15,9 @@ Layout:
 	sidenote width 2 inches
 	
 	so:
-	two columns
-	first for content
-	second (wide margin) for references (links), diagrams, and        	images
+   two columns
+   first for content
+   second (wide margin) for references (links), diagrams, and images
 
 Headings:
 	A - section (h2?)
