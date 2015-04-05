@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "From Madoko Post"
+title:  "Madoko Post"
 date:   2015-04-04 22:33:48
 tag: tufte
 ---
@@ -8,7 +8,7 @@ tag: tufte
 
 # Tufte post from madoko 
 
-### This is my heading 3 { #heading }
+### This is my heading 3
 
 |-------------|----------|
 | Martin Rowe | Password |
