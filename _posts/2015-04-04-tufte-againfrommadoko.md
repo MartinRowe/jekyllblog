@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Madoko Post"
+title:  "Again Madoko Post"
 date:   2015-04-04 22:33:48
 tag: tufte
 ---
