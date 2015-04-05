@@ -23,6 +23,7 @@ Madoko is a fast markdown processor for writing professional articles
 with a focus on simplicity and plain text readability.
 
 grr
+**This is in madoku. Try and move it to madoku with some formatting and see what happens** 
 
 * Read the [reference manual].
 * Explore the upper-right toolbox menu to discover how Markdown works. 
