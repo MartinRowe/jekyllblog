@@ -22,6 +22,8 @@ tag: tufte
 Madoko is a fast markdown processor for writing professional articles
 with a focus on simplicity and plain text readability.
 
+grr
+
 * Read the [reference manual].
 * Explore the upper-right toolbox menu to discover how Markdown works. 
 * `Alt-Q` reformats the current paragraph.
