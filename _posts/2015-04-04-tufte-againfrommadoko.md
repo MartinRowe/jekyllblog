@@ -10,15 +10,6 @@ tag: tufte
 
 ### This is my heading 3
 
-|-------------|----------|
-| Martin Rowe | Password |
-+-------------|:--------:+
-| oi          | grrr     |
-| oi          | greee    |
-|-------------|----------|
-|             |          |
-|             |          |
-
 Madoko is a fast markdown processor for writing professional articles
 with a focus on simplicity and plain text readability.
 
