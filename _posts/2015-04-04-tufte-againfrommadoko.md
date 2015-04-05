@@ -2,7 +2,7 @@
 layout: post
 title:  "From Madoko Post"
 date:   2015-04-04 22:33:48
-tag: tufteu
+tag: tufte
 ---
 
 
