@@ -9,5 +9,9 @@ url: "martinrowe.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  martinrowe
 
+default:
+  -
+  markdown_ext: "markdown,mkdown,mkdn,mkd,md,mdk"
+
 # Build settings
 markdown: kramdown
